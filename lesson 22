@@ -1,0 +1,25 @@
+function log(a,b,c) {
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+const num = [2,5,7];
+log(...num)
+
+const array = ["a", "b"];
+const newarray = [...array];
+const q = {
+    one: 1,
+    two: 2
+};
+const newobj = {...q}
+console.log(newobj)
+
+
+const add = {
+    one: 1,
+    two: 2,
+};
+const clone = Object.assign({}, add);
+clone.one = 30;
+console.log(clone)
