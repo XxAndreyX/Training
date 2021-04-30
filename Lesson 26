@@ -1,0 +1,11 @@
+let switcher = null;
+if (switcher) {
+    console.log('Working');
+}
+switcher = 1;
+
+if (switcher){
+    console.log('Working');
+}
+
+console.log(typeof(Boolean('4')));
